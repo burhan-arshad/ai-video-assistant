@@ -291,8 +291,8 @@ Free *CPU basic* Spaces provide 2 vCPU and 16 GB RAM, which comfortably fits Whi
 
 **Burhan Arshad** — Computer Science student
 
-- GitHub: [@YOUR-USERNAME](https://github.com/burhan-arshad)
-- LinkedIn: [YOUR-PROFILE](https://www.linkedin.com/in/burhan-arshad)
+- GitHub: [@burhan-arshad](https://github.com/burhan-arshad)
+- LinkedIn: [burhan-arshad](https://www.linkedin.com/in/burhan-arshad)
 
 If you find this project useful, consider giving it a ⭐ on GitHub.
 
