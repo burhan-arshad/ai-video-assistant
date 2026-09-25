@@ -18,8 +18,12 @@ def download_yt_video(url: str) -> str:
         "outtmpl": output_path,
 
         "js_runtimes": {
-            "node": {}
+            "deno": {}
         },
+
+        "remote_components": [
+            "ejs:github"
+        ],
 
         "postprocessors": [
             {
@@ -40,7 +44,6 @@ def download_yt_video(url: str) -> str:
 
 
 def convert_to_wav(input_path: str) -> str:
-    """Convert any audio/video file to WAV format."""
     output_path = os.path.splitext(input_path)[0] + "_converted.wav"
 
     audio = AudioSegment.from_file(input_path)
@@ -51,7 +54,6 @@ def convert_to_wav(input_path: str) -> str:
 
 
 def audio_chunks(audio_path: str, chunk_length_ms: int = 600000) -> list:
-    """Split audio into chunks of specified length."""
     audio = AudioSegment.from_file(audio_path)
 
     chunks = []
