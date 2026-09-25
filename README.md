@@ -10,8 +10,7 @@
 ![ChromaDB](https://img.shields.io/badge/Vector%20DB-ChromaDB-FF6F00)
 
 <!-- Replace the link below with your deployed app URL -->
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Open_the_app-0F766E?style=for-the-badge)](https://YOUR-LIVE-DEMO-LINK)
-
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Open_the_app-0F766E?style=for-the-badge)](https://ai-video-assistant-burhan.streamlit.app/)
 ---
 
 ## 📖 Table of contents
@@ -44,7 +43,7 @@ It ships with two interfaces:
 
 ## 🚀 Live demo
 
-**👉 [Try it here](https://YOUR-LIVE-DEMO-LINK)**
+**👉 [Try it here](https://ai-video-assistant-burhan.streamlit.app/)**
 
 > **Note:** the demo runs on free hosting, so the first load can take a moment while the app wakes up and downloads its models. Long recordings take longer to process on a free CPU. If YouTube links fail on the hosted version (some platforms block downloads from cloud servers), use **Upload file** instead.
 
@@ -159,8 +158,8 @@ Restart your terminal afterwards and confirm with `ffmpeg -version` and `deno --
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR-USERNAME/ai-meeting-assistant.git
-cd ai-meeting-assistant
+git clone https://github.com/burhan-arshad/ai-video-assistant.git
+cd ai-video-assistant
 
 # 2. Create and activate a virtual environment
 python -m venv venv
@@ -292,8 +291,8 @@ Free *CPU basic* Spaces provide 2 vCPU and 16 GB RAM, which comfortably fits Whi
 
 **Burhan Arshad** — Computer Science student
 
-- GitHub: [@YOUR-USERNAME](https://github.com/YOUR-USERNAME)
-- LinkedIn: [YOUR-PROFILE](https://www.linkedin.com/in/YOUR-PROFILE)
+- GitHub: [@YOUR-USERNAME](https://github.com/burhan-arshad)
+- LinkedIn: [YOUR-PROFILE](https://www.linkedin.com/in/burhan-arshad)
 
 If you find this project useful, consider giving it a ⭐ on GitHub.
 
