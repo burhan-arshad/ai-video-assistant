@@ -12,7 +12,6 @@ streamlit>=1.40.0
 
 # ── Audio / video ingestion ──────────────────────────────────────────────────
 yt-dlp[default]>=2025.11.12
-yt-dlp-getpot-wpc
 pydub>=0.25.1
 audioop-lts>=0.2.2; python_version >= "3.13"
 

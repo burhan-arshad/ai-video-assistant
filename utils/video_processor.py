@@ -18,11 +18,7 @@ def download_yt_video(url: str) -> str:
         "outtmpl": output_path,
 
         "js_runtimes": {
-            "deno": {}
-        },
-
-        "remote_components": {
-            "ejs": ["github"]
+            "node": {}
         },
 
         "postprocessors": [
