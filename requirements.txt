@@ -11,7 +11,6 @@
 streamlit>=1.40.0
 
 # ── Audio / video ingestion ──────────────────────────────────────────────────
-# The [default] extra installs yt-dlp-ejs, needed with a JS runtime (Deno)
 yt-dlp[default]>=2025.11.12
 pydub>=0.25.1
 audioop-lts>=0.2.2; python_version >= "3.13"
@@ -19,9 +18,8 @@ audioop-lts>=0.2.2; python_version >= "3.13"
 # ── Speech-to-text (Whisper runs locally) ────────────────────────────────────
 openai-whisper>=20231117
 torch>=2.2.0
-# Optional: on servers without a GPU, uncomment the next line for a much
-# smaller CPU-only PyTorch download.
-# --extra-index-url https://download.pytorch.org/whl/cpu
+torchaudio>=2.2.0
+torchvision>=0.17.0
 
 # ── LLM orchestration (LangChain + Groq) ─────────────────────────────────────
 langchain-core>=0.3.0
