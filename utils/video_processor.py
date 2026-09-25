@@ -16,9 +16,15 @@ def download_yt_video(url: str) -> str:
     ydl_opts = {
         "format": "bestaudio/best",
         "outtmpl": output_path,
+
         "js_runtimes": {
             "deno": {}
         },
+
+        "remote_components": {
+            "ejs": ["github"]
+        },
+
         "postprocessors": [
             {
                 "key": "FFmpegExtractAudio",
@@ -26,6 +32,7 @@ def download_yt_video(url: str) -> str:
                 "preferredquality": "192",
             }
         ],
+
         "quiet": False,
     }
 
