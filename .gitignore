@@ -1,0 +1,57 @@
+# ── Secrets (NEVER commit these) ─────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ── Project runtime data ─────────────────────────────────────────────────────
+downloads/
+chroma_db/
+*_converted.wav
+*_chunk_*.wav
+
+# ── Media files ──────────────────────────────────────────────────────────────
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.mkv
+*.webm
+*.mov
+
+# ── Model weights / caches ───────────────────────────────────────────────────
+*.pt
+*.bin
+*.safetensors
+.cache/
+whisper_cache/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ── Virtual environments ─────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── IDE / editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log

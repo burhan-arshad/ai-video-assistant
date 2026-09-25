@@ -1,0 +1,37 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# AI Meeting Assistant — Python dependencies
+# Python 3.10 – 3.12 recommended.
+#
+# System tools that pip CANNOT install (see README → Prerequisites):
+#   • FFmpeg   (required: audio extraction and conversion)
+#   • Deno     (recommended: lets yt-dlp download from YouTube reliably)
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Web UI ───────────────────────────────────────────────────────────────────
+streamlit>=1.40.0
+
+# ── Audio / video ingestion ──────────────────────────────────────────────────
+# The [default] extra installs yt-dlp-ejs, needed with a JS runtime (Deno)
+yt-dlp[default]>=2025.11.12
+pydub>=0.25.1
+
+# ── Speech-to-text (Whisper runs locally) ────────────────────────────────────
+openai-whisper>=20231117
+torch>=2.2.0
+# Optional: on servers without a GPU, uncomment the next line for a much
+# smaller CPU-only PyTorch download.
+# --extra-index-url https://download.pytorch.org/whl/cpu
+
+# ── LLM orchestration (LangChain + Groq) ─────────────────────────────────────
+langchain-core>=0.3.0
+langchain-groq>=0.2.0
+langchain-text-splitters>=0.3.0
+
+# ── RAG: embeddings + vector store ───────────────────────────────────────────
+chromadb>=0.5.0
+langchain-chroma>=0.1.4
+langchain-huggingface>=0.1.0
+sentence-transformers>=3.0.0
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
